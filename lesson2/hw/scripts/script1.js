@@ -9,16 +9,10 @@ console.log("Second numder : " +b);
 var c = +prompt("Enter your third number: ")
 console.log("Third number : " + c);
 
-if (a == b) {
-    console.log("Error");
-    document.write("Error");
-} else if (a == c) {
-    console.log("Error");
-    document.write("Error");
-} else if (b == c) {
+if (a == b || b==c || a==c) {
     console.log("Error");
     document.write("Error");
 } else {
 document.write("answer: " + (a + b + c) / 3);
 console.log( (a + b + c) / 3);
-}
+};

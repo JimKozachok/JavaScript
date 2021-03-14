@@ -2,12 +2,12 @@
 
 var rows =prompt("Enter numerof  rows:");
 
-for (var a = -1; a < rows; a++) { 
-    for(var b = -1; b<a; b++){
+for (var a = 0; a <= rows; a++) { 
+    for(var b = 0; b<=a; b++){
         document.write(" * ");
     }
     document.write("<br/>");
-}
+};
 
 
 
