@@ -3,3 +3,11 @@
 
 // Setup
 // var myArray = [["John", 23], ["cat", 2]];
+
+var myArray = [["John", 23],["cat", 2]];
+
+myArray.push(["dog", 3]);
+
+console.log(myArray[0][0]);
+console.log(myArray[1][0]);
+console.log(myArray[2][0]);
