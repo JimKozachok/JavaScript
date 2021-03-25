@@ -4,3 +4,13 @@
 // "something"
 
 // "test" => "tset"
+
+
+var text = prompt("Введите текст");
+
+function reverseText(text) {
+    
+    return text.split("").reverse().join("");
+}
+
+console.log(reverseText(text));
