@@ -3,4 +3,22 @@
     //     Посчитайте сумму позитивных чисел из массива и выведите ее в консоль
 
 
+
+    var arr = [];
+    for (var i=-10, t=10; i<t; i++) {
+        arr.push(Math.round(Math.random() * t))
+     }
+    console.log(arr);
     
+
+
+    var arr = [];
+
+    function randomNumbers() {
+      
+        for (var i=-10, t=10; i<t; i++) {
+        arr.push(Math.round(Math.random() * t)); 
+        }
+    }
+    randomNumbers();
+    console.log(arr);
