@@ -8,7 +8,6 @@
 let number =+ prompt('Введите число');
 
 function isEven(number) {
-    return ( number % 2 ) ? "Even" : "Odd";
+    return (number%2===0) ? "Even" : "Odd";
 }
 console.log(isEven(number));
-
